@@ -1,0 +1,11 @@
+.vscode/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+bin/
+dsimulator/CMakeFiles/
+dsimulator/CMakeCache.txt
+dsimulator/Makefile
+dsimulator/cmake_install.cmake
+dsimulator/device_listener
