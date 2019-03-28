@@ -4,6 +4,11 @@ CMakeFiles/
 Makefile
 cmake_install.cmake
 bin/
+device_listener/CMakeFiles/
+device_listener/CMakeCache.txt
+device_listener/Makefile
+device_listener/cmake_install.cmake
+device_listener/device_listener
 dsimulator/CMakeFiles/
 dsimulator/CMakeCache.txt
 dsimulator/Makefile
