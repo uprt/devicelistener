@@ -4,6 +4,12 @@ CMakeFiles/
 Makefile
 cmake_install.cmake
 bin/
+tests/CTestTestfile.cmake
+tests/CMakeCache.txt
+tests/CMakeFiles/
+tests/Makefile
+tests/cmake_install.cmake
+tests/tests
 device_listener/CMakeFiles/
 device_listener/CMakeCache.txt
 device_listener/Makefile
