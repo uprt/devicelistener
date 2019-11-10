@@ -1,7 +1,7 @@
 # libasio example
-This was a test task for one job application.
+This was a trial task for one job application.
 The task was "to compute the number of messages received from some devices".
-I decided use libasio (boost::asio), let my app receive messages in async way, support variable-width packets and let the protocol use TCP as a transport level.
+I decided to use libasio (boost::asio), let my app receive messages in async way, support variable-width packets and let the protocol use TCP as a transport level.
 
 # Why boost::asio?
 Well, it is a mature and reliable library widely used in production.
@@ -109,16 +109,7 @@ They all will exit when the connection with the server is lost.
 
 # Test
 Yes, I have some tests for the protocol parser and message counter. They are using GTest framework and not built by default.
-GTest installation is a bit tricky, by the way.
-```bash
-apt-get libgtest-dev
-cd /usr/src/gtest
-cmake CMakeLists.txt
-make
-cp *.a /usr/lib
-```
 
-and after this,
 ```
 cd devicelistener/tests
 cmake ./
